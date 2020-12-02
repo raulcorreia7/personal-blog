@@ -25,7 +25,7 @@ Here i share my ideas, projects and interests.
 To celebrate i leave my favorite game of all time as a easter egg.
 
 <!--more-->
-<!--{{< doomjs >}}-->
+{{< doomjs >}}
 
 Thanks,
 
