@@ -674,7 +674,7 @@ disableLanguages= ["fr", "zh-cn"]
     # Custom content (HTML format is supported)
     custom = ''
     # whether to show Hugo and theme info
-    hugo = true
+    hugo = false
     # whether to show copyright info
     # 是否显示版权信息
     copyright = true
