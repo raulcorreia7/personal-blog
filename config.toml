@@ -141,7 +141,7 @@ disableLanguages= ["fr", "zh-cn"]
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = ""
           # URL of avatar shown in home page
-          avatarURL = "/images/avatar.jpg"
+          avatarURL = "/images/avatar_circle_300.png"
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page
@@ -626,7 +626,7 @@ disableLanguages= ["fr", "zh-cn"]
   version = "0.2.X"
   # site default theme ("light", "dark", "auto")
   # 网站默认主题 ("light", "dark", "auto")
-  defaultTheme = "auto"
+  defaultTheme = "dark"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
   gitRepo = "https://github.com/dillonzq/LoveIt"
@@ -835,7 +835,7 @@ disableLanguages= ["fr", "zh-cn"]
         clientSecret = ""
       # Valine comment config (https://github.com/xCss/Valine)
       [params.page.comment.valine]
-        enable = true
+        enable = false
         appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
         appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
         placeholder = ""
@@ -885,11 +885,11 @@ disableLanguages= ["fr", "zh-cn"]
       # Utterances comment config (https://utteranc.es/)
       # Utterances comment 评论系统设置 (https://utteranc.es/)
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
-        repo = ""
+        repo = "raulcorreia7/personal_blog_comments"
         issueTerm = "pathname"
-        label = ""
+        label = "✨💬✨"
         lightTheme = "github-light"
         darkTheme = "github-dark"
     # Third-party library config
@@ -920,7 +920,7 @@ disableLanguages= ["fr", "zh-cn"]
   [params.typeit]
     # typing speed between each step (measured in milliseconds)
     # 每一步的打字速度 (单位是毫秒)
-    speed = 100
+    speed = 75
     # blinking speed of the cursor (measured in milliseconds)
     # 光标的闪烁速度 (单位是毫秒)
     cursorSpeed = 1000
