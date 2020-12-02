@@ -17,10 +17,10 @@
     Dos(document.getElementById("dosbox"), {
         wdosboxUrl: "https://js-dos.com/6.22/current/wdosbox.js",
         cycles: "auto",
-        autolock: true,
+        autolock: true
     }).ready(function (fs, main) {
         fs.extract(game_url).then(function () {
-            main(["-c", "DOOM2.EXE"]).then(function (ci) {
+            main(["-c", "MIXER MASTER 45:45", "-c", "DOOM2.EXE"]).then(function (ci) {
                 window.ci = ci;
             });
         });
