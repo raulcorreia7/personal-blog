@@ -1,9 +1,10 @@
-.PHONY: all clean watch public
+.PHONY: all clean watch public submodules
 
 HUGO  := hugo
 FLAGS := --gc --minify
 DEST  := public
 PORT  := 1313
+GIT	  := git
 # Run all targets
 all: public
 
@@ -29,3 +30,6 @@ watch: clean
 
 public:
 	$(HUGO) $(FLAGS) -d $(DEST)
+
+submodules:
+	$(GIT) submodule update --recursive --init
