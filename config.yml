@@ -71,10 +71,10 @@ params:
     profileMode:
         enabled: true
         title: Raúl Correia
-        imageUrl: "#"
+        imageUrl: "images/avatar_circle.png"
         imageTitle: my image
-        # imageWidth: 120
-        # imageHeight: 120
+        imageWidth: 220
+        imageHeight: 220
         buttons:
             - name: Posts
               url: posts
