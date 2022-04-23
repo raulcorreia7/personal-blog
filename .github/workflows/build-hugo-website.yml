@@ -1,4 +1,4 @@
-name: Github Hugo Flow
+name: Build Hugo Workflow
 on:
   push:
     branches:
