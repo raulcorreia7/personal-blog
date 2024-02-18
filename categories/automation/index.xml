@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automation on Raul Correia</title><link>https://www.raulcorreia.dev/categories/automation/</link><description>Recent content in Automation on Raul Correia</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 06 Dec 2020 15:36:30 +0000</lastBuildDate><atom:link href="https://www.raulcorreia.dev/categories/automation/index.xml" rel="self" type="application/rss+xml"/><item><title>Installing Docker in Ubuntu 20.10 (Groovy Gorilla)</title><link>https://www.raulcorreia.dev/posts/ubuntu-2010-docker/</link><pubDate>Sun, 06 Dec 2020 15:36:30 +0000</pubDate><guid>https://www.raulcorreia.dev/posts/ubuntu-2010-docker/</guid><description>&lt;h2 id="ubuntu--docker">
-Ubuntu ❤️ Docker
-&lt;a class="heading-link" href="#ubuntu--docker">
-&lt;i class="fa fa-link" aria-hidden="true">&lt;/i>
-&lt;/a>
+ Ubuntu ❤️ Docker
+ &lt;a class="heading-link" href="#ubuntu--docker">
+ &lt;i class="fa fa-link" aria-hidden="true">&lt;/i>
+ &lt;/a>
 &lt;/h2>
 &lt;p>Hello everyone,&lt;/p>
 &lt;p>Recently I installed the latest non LTS version of &lt;a href="https://releases.ubuntu.com/20.10/">Ubuntu 20.10 Groovy Gorilla&lt;/a>, and found it a bit of a hassle to install Docker with &lt;a href="https://docs.docker.com/engine/install/ubuntu/">this&lt;/a> tutorial, through the repository step.&lt;/p></description></item></channel></rss>
